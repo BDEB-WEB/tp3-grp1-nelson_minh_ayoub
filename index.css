@@ -1,0 +1,14 @@
+.images{
+    border: 15px;
+    border-color: aqua;
+    border-spacing: 14px;
+}
+.tableau{
+    width: 511px;
+    height: 412px;
+    background-color: gainsboro;
+}
+.text{
+    font-size: 32px;
+    font-style: normal;
+}
