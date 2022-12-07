@@ -1,3 +1,4 @@
+
 .images{
     border: 15px;
     border-color: aqua;
@@ -12,3 +13,50 @@
     font-size: 32px;
     font-style: normal;
 }
+
+
+
+.tableau {
+    width: 511px;
+    height: 412px;
+    background-color: gainsboro;
+}
+
+.text {
+    font-size: 32px;
+    font-style: normal;
+}
+
+
+
+.border {
+    clear:both;
+    width: 1718px;
+    padding: 88px;
+font-size: 36px;
+    color: white;
+    text-align: center;
+    background-color: rgb(165, 165, 165);
+}
+.border2{
+    clear: both;
+    width: 1812px;
+    font-size: 36px;
+    padding: 35px;
+    background-color: skyblue;
+}
+.button{
+    padding: 15px;
+    font-size: 15px;
+    float: right;
+    width: 10%;
+}
+.border3{
+    clear: both;
+    padding: 10px;
+    background-color: gray;
+    width: 1800px;
+    font-size: 16px;
+
+}
+
