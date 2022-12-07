@@ -8,6 +8,32 @@
     <title>Images et Videos.</title>
     <link rel="stylesheet" href="index.css">
     <style>
+         header{
+            background-color: lightblue;
+            color: white;
+            
+        }
+        .loupe {
+            position: fixed;
+            top: 55px;
+            left: 40px;
+        } 
+        input[type=text] {
+            position:fixed;
+            top: 55px;
+            left: 100px;
+            width: 20%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             box-sizing: border-box;
+            border: 2px solid black;
+             border-radius: 4px;
+        }
+        .logoProfile{
+            position:fixed;
+            top:25px;
+            right:40px;
+        }
         section {
 
 
@@ -28,8 +54,30 @@
 </head>
 
 <body>
+    <header>
+        <div class="loupe">
+            <img src="Image/Loupe.png">
+        </div>
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+          </form>
 
+        <center><img src="Image/Logo.png"></center>
+        
+
+        <div class="logoProfile">
+            <img src="Image/Profile logo.png">
+        </div>
+    </header><br><br>
+    <header>
+        <div>
+        <h1 style="color: black; font-size: 25px;" class="border2">ACCUEIL > PHOTOS & VIDÉOS
+       </div>
+        </h1>
+    </header>
     <center>
+        <br><br>
         <section>
             <div class="tableau">
                 <img class="images" src="images/skyline-luge-mt.jpg" width="511px" height="293px"></img>
@@ -73,6 +121,16 @@
                 <center> <a class="text"> De nombreuses activités intéressantes vous attendent !</a></center>
             </div><br><br>
         </article>
+        <p style="font-size: 20px;" class="border-text">Cliquez pour voir nos vidéos</p>
+        <section>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8MRo_Zw3_7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div><br><br>
+        </section>
+        <article>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xbaMJfhc9J0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+            </div><br><br>
+        </article>
     </center>
     <footer>
         <center>
@@ -80,16 +138,18 @@
                 <h1 class="border">Projet fait par Nelson Urizar, Minh Lam et Ayoub Oubaha</h1>
             </div>
         </center>
-        <div>
-            <h1 class="border2">Pour plus d'information....
-            <button class="button"> CONTACT</button></h1>
-        </div>
-        <div >
-            <p class="border3">Propos
-            Contact
-            Activités
-            Photos & vidéos
-            Tremblant, 1000 Chemin des Voyageurs </p>
+
+        <h1 class="border2">Pour plus d'information....
+            <button class="button"> CONTACT</button>
+        </h1>
+
+        <div style="color: white;" class="border3">
+            <h1> Propos</h1>
+            <h1> Contact</h1>
+            <h1> Activités</h1>
+            <h1> Photos & vidéos</h1>
+            <h1> Tremblant, 1000 Chemin des Voyageurs</h1>
+            
 
 
         </div>
