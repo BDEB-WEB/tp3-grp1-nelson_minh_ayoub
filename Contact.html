@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mont-Tremblant</title>
+    <style>
+        header{
+            background-color: #97E2FA;
+            color: white;
+            width: 1900px;
+            
+        }
+        .loupe {
+
+            position: absolute;
+            top: 55px;
+            left: 465px;
+        } 
+        input[type=text] {
+            position:absolute;
+            top: 55px;
+            left: 80px;
+
+            width: 20%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             box-sizing: border-box;
+            border: 2px solid black;
+             border-radius: 4px;
+        }
+        .logoProfile{
+
+            position:absolute;
+            top:25px;
+            right:40px;
+        }
+        .navigation{
+            position:absolute;
+            top:200px;
+            width:1900px;
+            height: 100px;
+            background-color: #97E2FA;
+        }
+        .acceuil{
+            position: absolute;
+            top:200px;
+            left:0px;
+            font-size: 35px;
+        }
+        .contact{
+            position: absolute;
+            top:200px;
+            left:800px;
+            font-size: 35px;
+
+        }
+        .propos{
+            position: absolute;
+            top:200px;
+            left:400px;
+            font-size: 35px;
+
+        }
+        .activites{
+            position: absolute;
+            top:200px;
+            right:700px;
+            font-size: 35px;
+        }
+        .photosVideos{
+            position: absolute;
+            top:200px;
+            right:350px;
+            font-size: 10px;
+        }
+        .rectangleb{
+            background-color: #48C1DC;
+            position: absolute;
+            top:300px;
+            width: 1900px;
+            height: 200px;
+        }
+        .rectangleB{
+            background-color: #97E2FA;
+            position: absolute;
+            top:325px;
+            right:650px;
+            width:600px;
+            height:150px;
+        }
+        h3{
+            position: absolute;
+            left:10px;
+            top:10px;
+            font-size: 35px;
+        }
+        .boite{
+            background-color: #97E2FA;
+            padding: 20px;
+            margin: 5px;
+            color: black;
+            border: 25px;
+            border-style: solid;
+            border-color: #48C1DC;
+            position:absolute;
+            top: 600px;
+            right:180px;
+            width:1500px;
+            height: 1300px;
+            box-sizing: border-box;
+        }
+        .formNomFamille{
+            position: absolute;
+            top:100px;
+            left:50px;
+            width:100%;
+        }
+        .nomFamille{
+            font-size: 30px;
+            position: absolute;
+            top:115px;
+            left:135px;
+        }
+        .formPrenom{
+            position:absolute;
+            top:100px;
+            left:900px;
+            width: 100%;
+        }
+        .Prenom{
+            font-size: 30px;
+            position: absolute;
+            top:115px;
+            left:990px;
+        }
+        .formVille{
+            position: absolute;
+            top:400px;
+            left:50px;
+            width:100%;
+        }
+        .ville{
+            font-size: 30px;
+            position: absolute;
+            top:415px;
+            left:135px;
+        }
+        .formAdressCourriel{
+            position:absolute;
+            top:400px;
+            left:900px;
+            width: 100%;
+        }
+        .AdressCourriel{
+            font-size: 30px;
+            position: absolute;
+            top:415px;
+            left:990px;
+        }
+        textarea{
+            border: 2px solid black;
+            border-radius: 4px;
+            position: absolute;
+            top:700px;
+            right:350px;
+
+        }
+        .Question{
+            font-size: 30px;
+            position: absolute;
+            top:660px;
+            left:640px;
+        }
+        .button2{
+            padding: 20px;
+            font-size: 35px;
+            height: 80px;
+            width:300px;
+            position: absolute;
+            top:1100px;
+            right:570px;
+            background-color: #97E2FA;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        .rectangle1{
+            background-color: #898989;
+            width:1900px;
+            height: 170px;
+            position:absolute;
+            top:2000px;
+            right:5px;
+        }
+        pre{
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        .rectangle2{
+            background-color: #97E2FA;
+            height: 100px;
+            width:1900px;
+            position:absolute;
+            top: 2170px;
+            right:5px;
+        }
+        p{
+            font-size: 35px;
+            color: black;
+            position:absolute;
+            left:100px;
+        }
+        .button{
+            padding: 15px;
+            font-size: 35px;
+            height: 80px;
+            width:300px;
+            position: absolute;
+            top:10px;
+            right:100px;
+            background-color: #D9D9D9;
+  
+        }
+        .rectangle3{
+            background-color: #5A5A5A;
+            height: 800px;
+            width:1900px;
+            position:absolute;
+            top: 2270px;
+            right:5px;
+        }
+        .container {
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        }
+        
+    </style>
+
+</head>
+<body class="container">
+
+    <!--Code pour le header de la page-->
+    <header>
+        <div class="loupe">
+            <img src="Image/Loupe.png">
+        </div>
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+          </form>
+
+        <a href="../tp3-grp1-nelson_minh_ayoub/Accueil.html"><center><img src="Image/Logo.png"></center></a>
+
+        <div class="logoProfile">
+            <a href="../tp3-grp1-nelson_minh_ayoub/Contact.html"><img src="Image/Profile logo.png"></a>
+        </div>
+
+    </header>
+
+
+<!--Code pour la navigation haut de page-->
+    <div class="navigation"></div>
+    <a href="../tp3-grp1-nelson_minh_ayoub/Accueil.html"><div class="acceuil"><p>Accueil</p></div></a>
+    <a href="../tp3-grp1-nelson_minh_ayoub/Propos.html"><div class="propos"><p>Propos</p></div></a>
+    <a href="../tp3-grp1-nelson_minh_ayoub/Contact.html"><div class="contact"><p>Contact</p></div></a>
+    <a href="../tp3-grp1-nelson_minh_ayoub/"><div class="activites"><p>Activités</p></div></a>
+    <a href="../tp3-grp1-nelson_minh_ayoub/Index.html"><div class="photosVideos"><p>Photos&Vidéos</p></div></a>
+
+
+<!--Code pour le form de questions-->
+    <div class="rectangleb"></div>
+    <div class="rectangleB"><center><h3>Contactez nous pour plus d'informations</h3></center></div>
+
+
+
+    <div class="boite">
+        <div class="nomFamille">Nom de famille</div>
+
+        <div class="formNomFamille">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+        </form>
+        </div>
+
+
+        <div class="Prenom">Prénom</div>
+        <div class="formPrenom">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+        </form>
+        </div>
+
+
+        <div class="ville">Ville</div>
+        <div class="formVille">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+        </form>
+        </div>
+
+
+        <div class="AdressCourriel">Adress Courriel</div>
+        <div class="formAdressCourriel">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+        </form>
+        </div>
+
+        <div class="Question">Votre question</div>
+        <div class="formQuestion">
+            <label for="fname"></label>
+            <textarea id="w3review" name="w3review" rows="20" cols="100"></textarea>
+        </form>
+        </div>
+
+
+
+        <button class="button2">SOUMETTRE</button>
+      
+
+
+        </div>
+
+<!--Code pour le footer-->
+        <footer>
+        <div class="rectangle1">
+         <center><pre>
+
+            Projet fait par Nelson Urizar, Minh Lam et Ayoub Oubaha
+
+        </pre></center>
+        </div>
+        <div class="rectangle2">
+            <p>Pour plus d'information...</p>
+            <a href="../tp3-grp1-nelson_minh_ayoub/Contact.html"><button class="button">CONTACT</button></a>
+        </div>
+        <div class="rectangle3">
+            <a href="../tp3-grp1-nelson_minh_ayoub/Propos.html"><p style="color:white">Propos</p><br><br><br><br><br><br><br><br><br><br></a>
+            <a href="../tp3-grp1-nelson_minh_ayoub/"><p style="color:white"> Contact</p><br><br><br><br><br><br><br><br><br><br></a>
+            <a href="../tp3-grp1-nelson_minh_ayoub/"><p style="color:white"> Activités</p><br><br><br><br><br><br><br><br><br><br></a>
+            <a href="../tp3-grp1-nelson_minh_ayoub/Index.html"><p style="color:white"> Photos & Vidéos</p><br><br><br><br><br><br><br><br><br><br></a>
+            <p style="color:white"> Tremblant, 1000 Chemin des Voyageurs Mont-Tremblant, QC J8E 1T1, Canada</p>
+        </div>
+    </footer>
+            
+
+    
+</body>
+</html>
