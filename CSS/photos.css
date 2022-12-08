@@ -8,8 +8,17 @@
 .border-text{ 
     color: black; 
     border-style: solid; 
+    position: absolute;
+     top: 1625px;
+     left: 780px;
+     font-size: 25px;
+     padding: 10px;
 } 
- 
+.musique{  
+    position: absolute;
+     top: 1725px;
+     left: 780px;
+} 
 .text { 
     font-size: 32px; 
     font-style: normal; 
